@@ -2,8 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.game {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.game-info {
+  margin: 20px;
 }
 
 .App-header {

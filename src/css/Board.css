@@ -1,0 +1,15 @@
+.Board {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  height: 34px;
+  text-align: center;
+  width: 34px;
+}
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
